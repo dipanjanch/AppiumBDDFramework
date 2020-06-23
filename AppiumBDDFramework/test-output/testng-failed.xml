@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mobile-automation-framework]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="automation-tests(failed)">
+    <classes>
+      <class name="runner.CucumberRunnerUtil">
+        <methods>
+          <include name="setDestroySession"/>
+          <include name="setCreateSession"/>
+          <include name="cleanUp"/>
+          <include name="feature" invocation-numbers="0 1"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.CucumberRunnerUtil -->
+    </classes>
+  </test> <!-- automation-tests(failed) -->
+</suite> <!-- Failed suite [mobile-automation-framework] -->

@@ -1,0 +1,26 @@
+package config;
+
+public class Constants {
+	
+	public static final String Environment = "SIT";
+	public static final String Platform = "iOS";
+	
+	public static final String androidAppPath = "";	
+	public static final String iOSAppPath = "";
+	
+	public static final String AndroidDeviceName = "";
+	public static final String iOSDeviceName = "iPhoneXSOffshore";
+	
+	public static final boolean startAppiumFromCode = false;
+	public static final boolean installAppFromProject = false;
+	
+	
+	
+	public static final String nodePath = "";
+	public static final String appiumPath = "";
+	public static final String dataListPath = "src/main/resources/testData/dataList.json";
+	public static final String deviceListPath = "src/main/resources/testData/deviceList.json";
+	
+	
+
+}

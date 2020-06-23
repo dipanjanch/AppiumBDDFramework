@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="mobile-automation-framework">
+	<parameter name="os" value="android" />
+
+
+	<test name="automation-tests">
+		<classes>
+			<class name="runner.CucumberRunnerUtil" />
+		</classes>
+	</test>
+</suite>

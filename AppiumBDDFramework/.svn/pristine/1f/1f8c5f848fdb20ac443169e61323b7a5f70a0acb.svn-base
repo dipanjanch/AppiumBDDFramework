@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-30T20:49:01 IST" name="mobile-automation-framework" finished-at="2020-01-30T20:50:18 IST" duration-ms="77850">
+    <groups>
+      <group name="cucumber">
+        <method signature="CucumberRunnerUtil.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CucumberRunnerUtil@4445629]" name="feature" class="runner.CucumberRunnerUtil"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-01-30T20:49:01 IST" name="automation-tests" finished-at="2020-01-30T20:50:18 IST" duration-ms="77850">
+      <class name="runner.CucumberRunnerUtil">
+        <test-method is-config="true" signature="setCreateSession()[pri:0, instance:runner.CucumberRunnerUtil@4445629]" started-at="2020-01-30T20:49:01 IST" name="setCreateSession" finished-at="2020-01-30T20:49:01 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCreateSession -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.CucumberRunnerUtil@4445629]" started-at="2020-01-30T20:49:01 IST" name="setUpClass" finished-at="2020-01-30T20:49:02 IST" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CucumberRunnerUtil@4445629]" started-at="2020-01-30T20:49:02 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-01-30T20:50:18 IST" duration-ms="76134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate Different Options]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CucumberRunnerUtil@4445629]" started-at="2020-01-30T20:50:18 IST" name="tearDownClass" finished-at="2020-01-30T20:50:18 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="setDestroySession()[pri:0, instance:runner.CucumberRunnerUtil@4445629]" started-at="2020-01-30T20:50:20 IST" name="setDestroySession" finished-at="2020-01-30T20:50:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDestroySession -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:runner.CucumberRunnerUtil@4445629]" started-at="2020-01-30T20:50:20 IST" name="cleanUp" finished-at="2020-01-30T20:50:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- runner.CucumberRunnerUtil -->
+    </test> <!-- automation-tests -->
+  </suite> <!-- mobile-automation-framework -->
+</testng-results>
