@@ -1,6 +1,0 @@
-#Platform = Android/iOS
-Platform = iOS
-
-AndroidAppPath = src/main/java/app/Salesforce_com.salesforce.chatter.apk
-iOSAppPath = src/main/java/app/path-to-your-iOSfile
-SCREENSHOTPATH = test-output
